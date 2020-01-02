@@ -122,7 +122,7 @@ nav #inputs #menuBtn:hover i {
 }
 
 nav.expanded{
-    height: 20vh;
+    min-height: 20vh;
     padding: 40px 70px;
     align-items: flex-start;
     background-color: #fff;
@@ -459,6 +459,30 @@ footer #links a{
     nav.heightedNav #inputs #menuBtn i {
         font-size: 12px;
     }
+
+    nav.expanded{
+        padding: 40px 10px;
+        height: 25vh;
+    }
+
+    nav.expanded img{
+        margin-top: 7px;
+    }
+
+    nav.expanded #navlinks{
+        bottom: 24px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    nav.expanded #navlinks a{
+        margin-right: 0;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
     #text {
         top: initial;
         bottom: 3%;

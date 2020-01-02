@@ -4,7 +4,6 @@ window.addEventListener('hashchange', function(){
         nav.classList.remove('expanded');
     }, 50)
     isNavbarOpen = false;
-
 });
 
 
